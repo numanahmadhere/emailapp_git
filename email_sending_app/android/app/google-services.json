@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "693567023286",
+    "project_id": "emailapp-f6dc0",
+    "storage_bucket": "emailapp-f6dc0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693567023286:android:6b91362e9a9110d7629e17",
+        "android_client_info": {
+          "package_name": "io.densight.emailapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693567023286-38lcfijvjr54m59q2k76eu73dcrp2pkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKn7KFG7-EV6YB1nbFZoPd74C22nkCmmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693567023286-38lcfijvjr54m59q2k76eu73dcrp2pkh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "693567023286-bonma88daa2v80qff6va2ku1ap5t9umm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.emailSendingApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

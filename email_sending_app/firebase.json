@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "emailapp-f6dc0",
+          "appId": "1:693567023286:android:6b91362e9a9110d7629e17",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "emailapp-f6dc0",
+          "appId": "1:693567023286:ios:d186c3afc759e122629e17",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "emailapp-f6dc0",
+          "appId": "1:693567023286:ios:d186c3afc759e122629e17",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "emailapp-f6dc0",
+          "configurations": {
+            "android": "1:693567023286:android:6b91362e9a9110d7629e17",
+            "ios": "1:693567023286:ios:d186c3afc759e122629e17",
+            "macos": "1:693567023286:ios:d186c3afc759e122629e17",
+            "web": "1:693567023286:web:742cc7902bcc5c2d629e17",
+            "windows": "1:693567023286:web:742cc7902bcc5c2d629e17"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "no",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
